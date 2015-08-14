@@ -1,0 +1,109 @@
+﻿@font-face {
+    font-family: Intro;
+    src: url(../Fonts/Intro.otf) format("opentype");
+}
+
+body {
+    background: #E3E3E3;
+    background-image: url(../Images/trianguloTopo.png);
+    background-repeat: no-repeat;
+    background-size: 220px 278px;
+    width: 1280px;
+    height: 2240px;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform:uppercase;
+}
+
+/*****HEADER*****/
+
+header{
+     font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+     width:956px;
+     height:120px;
+
+     padding-left:232px;
+}
+
+header h1 {
+        background-image: url(../Images/logoHome.png);
+        background-repeat: no-repeat;
+        height: 120px;
+        float: left;
+        overflow: hidden;
+        text-indent: 100%;
+        white-space: nowrap;
+        width: 81px;
+        margin-top:20px;
+        margin-right:85px;
+    }
+
+header nav {
+        float: left;
+        padding-top:11px;
+    }
+
+.main-menu li {
+    float: left;
+    padding-top: 45px;
+    text-align: left;
+}
+
+.main-menu .sobre {
+    width: 159px;
+}
+
+.main-menu .projetos {
+    width: 150px;
+}
+
+.main-menu .midia {
+    width: 106px;
+}
+
+.main-menu .contato {
+    width: 91px;
+}
+
+.main-menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+    .main-menu a:hover {
+        text-decoration: underline;
+        color:#58bf8f;
+    }
+
+.social-links {
+        margin-top: 5px;
+        margin-left: 86px;
+        width: 163px;
+}
+
+    .social-links li {
+        display: inline-block;
+        
+    }
+
+    .social-links a {
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: block;
+        height: 44px;
+        width: 35px;
+    }
+
+    .social-links .facebook {
+        background-image: url(../Images/iconFacebook.png);
+        margin-right: 20px;
+    }
+
+    .social-links .youtube {
+        background-image: url(../Images/iconYoutube.png);
+        margin-right: 20px;
+    }
+
+    .social-links .instagram {
+        background-image: url(../Images/iconInstagram.png);
+    }

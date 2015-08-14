@@ -1,0 +1,6 @@
+C:\Users\Marcel\documents\visual studio 2013\Projects\QuatroLados\QuatroLados\bin\QuatroLados.dll.config
+C:\Users\Marcel\documents\visual studio 2013\Projects\QuatroLados\QuatroLados\bin\QuatroLados.dll
+C:\Users\Marcel\documents\visual studio 2013\Projects\QuatroLados\QuatroLados\bin\QuatroLados.pdb
+C:\Users\Marcel\documents\visual studio 2013\Projects\QuatroLados\QuatroLados\obj\Debug\QuatroLados.csprojResolveAssemblyReference.cache
+C:\Users\Marcel\documents\visual studio 2013\Projects\QuatroLados\QuatroLados\obj\Debug\QuatroLados.dll
+C:\Users\Marcel\documents\visual studio 2013\Projects\QuatroLados\QuatroLados\obj\Debug\QuatroLados.pdb

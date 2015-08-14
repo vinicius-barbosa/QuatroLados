@@ -1,0 +1,50 @@
+﻿@font-face {
+    font-family: Letter Gothic Std;
+    src: url(../Fonts/Letter Gothic.ttf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.content{
+    font: 16px/1 Letter Gothic Std, 'Letter Gothic Std', Arial, Letter Gothic Std;
+    color: #7A7A7A; 
+}
+.content-header{
+    padding-top: 85px;
+    padding-left: 395px;
+}
+
+    .content-header h4{
+        font-weight: bold;
+    }
+
+    .content .image-sobre{
+        padding-left: 189px;
+        padding-top: 57px;
+    }
+
+    .content .text-sobre{
+        padding-left: 395px;
+        margin-top: 61px;
+        max-width: 589px;
+        max-height: 260px;
+
+        font-size: 14px;
+    }
+
+.content-equipe{
+    padding-top: 61px;
+    padding-left: 263px;
+}   
+
+     .content-equipe li {
+            display: inline-block;
+            width: 435px;
+        }
+     .a .facebook {
+        background-image: url(../Images/iconFacebook.png);
+    }
+
+    .a .instagram {
+        background-image: url(../Images/iconYoutube.png);
+    }
