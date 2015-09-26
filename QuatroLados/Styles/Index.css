@@ -1,0 +1,476 @@
+﻿@font-face {
+    font-family: Letter Gothic Std;
+    src: url(../Fonts/Letter Gothic.ttf) format("opentype");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.upper-content {
+    background-image: url('../Images/retanguloSuperior.png');
+    background-repeat: no-repeat;
+    background-size: 1280px 898px;
+    width: 1280px;
+    height: 898px;
+}
+
+#content-background {
+    position: absolute;
+    top: 680px;
+}
+
+#projeto-cadeira {
+    background-image: url('../Images/shapeCadeiraQuatroLados-hover.png');
+    position: absolute;
+    top: 795px;
+    margin-left: 110px;
+    z-index: 1;
+    width: 334px;
+    height: 419px;
+    -webkit-transition: all .6s ease;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);    
+}
+
+#projeto-cadeira:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+#texto-projeto-cadeira {
+    font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 195px;
+    color: #ffffff;
+    width: 85px;
+    left: 60px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.texto-acesso-projeto-cadeira {
+    font: 13.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 195px;
+    color: #ffffff;
+    width: 105px;
+    left: 60px;
+    line-height: 1.2;
+    visibility: hidden;
+}
+
+.imagem-acesso-projeto-cadeira {
+    position: relative;
+    top: 200px;
+    left: 80px;
+    visibility: hidden;
+}
+
+#projeto-cadeira:hover #texto-projeto-cadeira {
+    visibility: hidden;
+    display: none;
+}
+
+#projeto-cadeira:hover .texto-acesso-projeto-cadeira {
+    visibility: visible;
+}
+
+#projeto-cadeira:hover .imagem-acesso-projeto-cadeira {
+    visibility: visible;
+}
+
+#projeto-quarto {
+    background-image: url('../Images/shapeApartamentoCasal-hover.png');
+    position: absolute;
+    top: 1132px;
+    z-index: 1;
+    width: 618px;
+    height: 416px;
+    -webkit-transition: all .6s ease;    
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#projeto-quarto:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+#texto-projeto-quarto {
+    font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 175px;
+    color: #ffffff;
+    width: 135px;
+    left: 200px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.texto-acesso-projeto-quarto {
+    font: 13.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 175px;
+    color: #ffffff;
+    width: 105px;
+    left: 238px;
+    line-height: 1.2;
+    visibility: hidden;
+}
+
+.imagem-acesso-projeto-quarto {
+    position: relative;
+    top: 185px;
+    left: 255px;
+    visibility: hidden;
+}
+
+#projeto-quarto:hover #texto-projeto-quarto {
+    visibility: hidden;
+    display: none;
+}
+
+#projeto-quarto:hover .texto-acesso-projeto-quarto {
+    visibility: visible;
+}
+
+#projeto-quarto:hover .imagem-acesso-projeto-quarto {
+    visibility: visible;
+}
+
+#projeto-cafe {
+    background-image: url('../Images/shapeCafe-hover.png');
+    position: absolute;
+    top: 911px;
+    margin-left: 310px;
+    z-index: 1;
+    width: 320px;
+    height: 395px;
+    -webkit-transition: all .6s ease;    
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#projeto-cafe:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+#texto-projeto-cafe {
+    font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 175px;
+    color: #ffffff;
+    width: 135px;
+    left: 135px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.texto-acesso-projeto-cafe {
+    font: 13.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 162px;
+    color: #ffffff;
+    width: 135px;
+    left: 158px;
+    line-height: 1.2;
+    visibility: hidden;
+}
+
+.imagem-acesso-projeto-cafe {
+    position: relative;
+    top: 170px;
+    left: 190px;
+    visibility: hidden;
+}
+
+#projeto-cafe:hover #texto-projeto-cafe {
+    visibility: hidden;
+    display: none;
+}
+
+#projeto-cafe:hover .texto-acesso-projeto-cafe {
+    visibility: visible;
+}
+
+#projeto-cafe:hover .imagem-acesso-projeto-cafe {
+    visibility: visible;
+}
+
+#projeto-beco {
+    background-image: url('../Images/shapebeco-hover.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 902px;
+    margin-left: 639px;
+    width: 269px;
+    height: 567px;
+    -webkit-transition: all .6s ease;    
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#projeto-beco:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+#texto-projeto-beco {
+    font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 281px;
+    color: #ffffff;
+    width: 95px;
+    left: 83px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.texto-acesso-projeto-beco {
+    font: 13.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 253px;
+    color: #ffffff;
+    width: 134px;
+    left: 67px;
+    line-height: 1.2;
+    visibility: hidden;
+}
+
+.imagem-acesso-projeto-beco {
+    position: relative;
+    top: 262px;
+    left: 99px;
+    visibility: hidden;
+}
+
+#projeto-beco:hover #texto-projeto-beco {
+    visibility: hidden;
+    display: none;
+}
+
+#projeto-beco:hover .texto-acesso-projeto-beco {
+    visibility: visible;
+}
+
+#projeto-beco:hover .imagem-acesso-projeto-beco {
+    visibility: visible;
+}
+
+#projeto-acai {
+    background-image: url('../Images/shapeAcai-hover.png');
+    width: 290px;
+    height: 436px;
+    position: absolute;
+    margin-left: 928px;
+    top: 890px;
+    -webkit-transition: all .6s ease;    
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#projeto-acai:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);    
+}
+
+#texto-projeto-acai {
+    font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 199px;
+    color: #ffffff;
+    width: 95px;
+    left: 103px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.texto-acesso-projeto-acai {
+    font: 13.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 191px;
+    color: #ffffff;
+    width: 134px;
+    left: 85px;
+    line-height: 1.2;
+    visibility: hidden;
+}
+
+.imagem-acesso-projeto-acai {
+    position: relative;
+    top: 197px;
+    left: 119px;
+    visibility: hidden;
+}
+
+#projeto-acai:hover #texto-projeto-acai {
+    visibility: hidden;
+    display: none;
+}
+
+#projeto-acai:hover .texto-acesso-projeto-acai {
+    visibility: visible;
+}
+
+#projeto-acai:hover .imagem-acesso-projeto-acai {
+    visibility: visible;
+}
+
+#projeto-casa {
+    background-image: url('../Images/shapeCasa-hover.png');
+    width: 348px;
+    height: 372px;
+    position: absolute;
+    top: 1182px;
+    margin-left: 930px;
+    -webkit-transition: all .6s ease;    
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+#projeto-casa:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);    
+}
+
+#texto-projeto-casa {
+    font: 17.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 153px;
+    color: #ffffff;
+    width: 95px;
+    left: 103px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.texto-acesso-projeto-casa {
+    font: 13.53px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 2;
+    position: relative;
+    top: 150px;
+    color: #ffffff;
+    width: 134px;
+    left: 137px;
+    line-height: 1.2;
+    visibility: hidden;
+}
+
+.imagem-acesso-projeto-casa {
+    position: relative;
+    top: 157px;
+    left: 170px;
+    visibility: hidden;
+}
+
+#projeto-casa:hover #texto-projeto-casa {
+    visibility: hidden;
+    display: none;
+}
+
+#projeto-casa:hover .texto-acesso-projeto-casa {
+    visibility: visible;
+}
+
+#projeto-casa:hover .imagem-acesso-projeto-casa {
+    visibility: visible;
+}
+
+#texto-produtos {
+    position: absolute;
+    margin-left: 309px;
+    top: 1711px;
+    width: 635px;
+    font: 16px/1 Letter Gothic Std, 'Letter Gothic Std', Arial, Letter Gothic Std;
+    color: #707070;
+    line-height: 1.4;
+}
+
+.texto-produtos-titulo {
+    position: absolute;
+    margin-left: 120px;
+    top: 1821px;
+    width: 195px;
+    font: 80px/1 Intro, 'Intro', Arial, Intro;
+    z-index: 1;
+    text-align: right;
+    color: #3abf8f;
+}
+
+.texto-produtos-titulo a {
+    color: #3abf8f;
+    text-decoration: none;
+}
+
+.texto-produtos-titulo a:hover .subtexto-produtos {
+    color: #3abf8f;
+    text-decoration: underline;
+}
+
+#cadeiras {
+    position: absolute;
+    top: 1827px;
+    margin-left: 210px;
+}
+
+#setaProdutos {
+    position: absolute;
+    top: 1894px;
+    margin-left: 1045px;
+}
+
+.maisProjetos {
+    position: relative;
+    left: 638px;
+    top: 629px;
+}
+
+.footer {
+    background-image: url('../Images/retanguloFooter.png');
+    height: 61px;
+    width: 1280px;
+    position: absolute;
+    top: 2179px;
+}
+
+.footer nav {
+    text-align: center;
+    padding-left: 295px;
+}
+
+.footer li {
+    float: left;
+    list-style-position: outside;
+    position: relative;
+    margin: 22px 18px;
+    font: 17.5px/1 Intro, 'Intro', Arial, Intro;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.anchorLogo {
+    background-image: url('../Images/logoFooter.png');
+    width: 162px;
+    height: 24px;
+    background-repeat: no-repeat;
+}

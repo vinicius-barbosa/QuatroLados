@@ -58,13 +58,35 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contato.html" />
+    <Content Include="Images\arrow-acesso-projeto.png" />
+    <Content Include="Images\cadeiras.png" />
+    <Content Include="Images\contentBackgroud.png" />
+    <Content Include="Images\contentShapes.png" />
     <Content Include="Images\facebookLogo.png" />
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\iconFacebook.png" />
     <Content Include="Images\iconInstagram.png" />
     <Content Include="Images\iconYoutube.png" />
     <Content Include="Images\IgorFoto.png" />
+    <Content Include="Images\logoFooter.png" />
+    <Content Include="Images\retanguloFooter.png" />
+    <Content Include="Images\retanguloSuperior.png" />
     <Content Include="Images\RomuloFoto.png" />
+    <Content Include="Images\setaProdutos.png" />
+    <Content Include="Images\shapeAcai-hover.png" />
+    <Content Include="Images\shapeAcai.png" />
+    <Content Include="Images\shapeApartamentoCasal-hover.png" />
+    <Content Include="Images\shapeApartamentoCasal.png" />
+    <Content Include="Images\shapeBeco-hover.png" />
+    <Content Include="Images\shapeBeco.png" />
+    <Content Include="Images\shapeCadeiraQuatroLados-hover.png" />
+    <Content Include="Images\shapeCadeiraQuatroLados.png" />
+    <Content Include="Images\shapeCafe-hover.png" />
+    <Content Include="Images\shapecafe.png" />
+    <Content Include="Images\shapeCasa-hover.png" />
+    <Content Include="Images\shapeCasa.png" />
+    <Content Include="Images\shapeMaisProjetos.png" />
+    <Content Include="Images\videoSample.png" />
     <Content Include="Index.html" />
     <Content Include="Images\instagramLogo.png" />
     <Content Include="Images\linhasEsquerda.png" />
@@ -76,6 +98,8 @@
     <Content Include="Images\trianguloDireita.png" />
     <Content Include="Images\trianguloTopo.png" />
     <Content Include="Styles\Base.css" />
+    <Content Include="Styles\BaseIndex.css" />
+    <Content Include="Styles\Index.css" />
     <Content Include="Styles\Reset.css" />
     <Content Include="Styles\Sobre.css" />
     <Content Include="Web.config" />
